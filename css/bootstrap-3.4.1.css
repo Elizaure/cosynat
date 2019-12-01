@@ -3106,7 +3106,7 @@ select[multiple].input-lg {
   cursor: pointer;
   background-image: none;
   line-height: 1.42857143;
-  border-radius: 4px;
+  border-radius: 8px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
