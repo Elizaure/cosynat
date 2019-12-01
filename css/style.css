@@ -225,7 +225,7 @@ h1 {
 
 .header {
 	height: 400px;
-	background-color: #636564;
+	background-color: #CFD8D7;
 }
 
 .container-fluid {
@@ -235,17 +235,78 @@ h1 {
 }
 
 .glyphicon-menu-hamburger {
-	color: white;
+	color: #636564;
 	font-size: 30px;
 }
 
 #menu {
 	display: flex;
-	flex-direction: row;
+	font-family: "nunito-sans";
+	color: #636564;
+	font-size: 38px;
+	margin: 1rem;
+	vertical-align: center;
 }
 
-.p {
-	font-family: "nunito-sans";
-	font-color: white;
-	
+.btn-primary {
+  height: 50px;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  padding: 0px;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: #286090;
+  border-color: #122b40;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #286090;
+  background-image: none;
+  border-color: #204d74;
+}
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: #fff;
+  background-color: #204d74;
+  border-color: #122b40;
+}
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.btn-primary .badge {
+  color: #337ab7;
+  background-color: #fff;
+}
+.btn-lg,
+.btn-group-lg > .btn {
+  padding: 0px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
 }
