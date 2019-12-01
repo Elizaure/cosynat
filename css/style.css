@@ -249,30 +249,30 @@ h1 {
 }
 
 .btn-primary {
+  font-size: 18px;
   height: 50px;
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
-  padding: 0px;
+  background-color: #636564;
+  padding: 10px;
+  box-shadow: 3px 3px 2px 2px #ccc;
 }
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #286090;
-  border-color: #122b40;
+  background-color: #636564;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+ transform: scale(1.10);
+  background-color: #636564;
 }
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #286090;
+  background-color: #636564;
   background-image: none;
-  border-color: #204d74;
+  border-color: #ccc;
 }
 .btn-primary:active:hover,
 .btn-primary.active:hover,
@@ -284,8 +284,7 @@ h1 {
 .btn-primary.active.focus,
 .open > .dropdown-toggle.btn-primary.focus {
   color: #fff;
-  background-color: #204d74;
-  border-color: #122b40;
+  background-color: #636564;
 }
 .btn-primary.disabled:hover,
 .btn-primary[disabled]:hover,
@@ -305,8 +304,36 @@ fieldset[disabled] .btn-primary.focus {
 }
 .btn-lg,
 .btn-group-lg > .btn {
-  padding: 0px;
-  font-size: 18px;
-  line-height: 1.3333333;
   border-radius: 6px;
+}
+
+.animate {
+    animation-name: pulse;
+    animation-duration: 10000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes pulse {
+    0% { transform: scale(1); }
+    10% { transform: scale(1); }
+    40% { transform: scale(1); }
+    50% { transform: scale(1); }
+    60% { transform: scale(1); }
+    70% { transform: scale(1); }
+	80% { transform: scale(1); }
+	90% { transform: scale(1.10);}
+    100% { transform: scale(1); }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    20% { transform: scale(1); }
+    40% { transform: scale(1); }
+    50% { transform: scale(1); }
+    60% { transform: scale(1); }
+    70% { transform: scale(1); }
+    80% { transform: scale(1); }
+	90% { transform: scale(1.10);}
+    100% { transform: scale(1); }
 }
