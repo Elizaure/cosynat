@@ -16,6 +16,8 @@ html {
   font-size: 24px;
   font-family: "nunito-sans";
 }
+
+
 @supports (display: grid) {
   body,
   html {
@@ -251,7 +253,7 @@ h1 {
 	font-size: 30px;
 }
 
-#menu {
+#menuprin {
 	display: flex;
 	font-family: "nunito-sans";
 	color: #636564;
