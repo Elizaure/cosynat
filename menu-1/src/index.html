@@ -1,37 +1,8 @@
    <!doctype html>
 <html>  
-	<link href="style.css" rel="stylesheet" type="text/css">	
-        <div class="screen">
-        	<div class="navbar"></div>
-        	<div class="list">
-            	<div class="item">
-                	<div class="img"></div>
-                    <span></span>
-                    <span></span>
-                    <span></span>                    
-                </div>
-                
-                <div class="item">
-                	<div class="img"></div>
-                    <span></span>
-                    <span></span>
-                    <span></span>                    
-                </div>
-                
-                <div class="item">
-                	<div class="img"></div>
-                    <span></span>
-                    <span></span>
-                    <span></span>                    
-                </div>
-                
-                <div class="item">
-                	<div class="img"></div>
-                    <span></span>
-                    <span></span>
-                    <span></span>                    
-                </div>
-            </div>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-3.4.1.css" rel="stylesheet" type="text/css">
+
         
 	        <div class="circle"></div>
 			<div class="menu">
@@ -42,14 +13,15 @@
                     <li><a href="">Settings</a></li>
                     <li><a href="">Contact</a></li>
 				</ul>
-			</div>			            
+			</div>		            
 			<div class="burger">
-				<p class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></p>
+			  	<div class="y"><img src="../../images/navicon-round.svg" height="40px" alt=""/></div>
 			</div>    
 
-		</div>	
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script id="rendered-js">
+	
+<script id="rendered-js">
       if ('ontouchstart' in window) {var click = 'touchstart';} else
 {var click = 'click';}
 
@@ -73,41 +45,19 @@ function openMenu() {
   $('div.circle').addClass('expand');
 
   $('div.burger').addClass('open');
-  $('div.x, div.y, div.z').addClass('collapse');
   $('.menu li').addClass('animate');
-
-  setTimeout(function () {
-    $('div.y').hide();
-    $('div.x').addClass('rotate30');
-    $('div.z').addClass('rotate150');
-  }, 70);
-  setTimeout(function () {
-    $('div.x').addClass('rotate45');
-    $('div.z').addClass('rotate135');
-  }, 120);
-
-
+  $('div.y').addClass('hide');
 
 }
 
 function closeMenu() {
 
   $('div.burger').removeClass('open');
-  $('div.x').removeClass('rotate45').addClass('rotate30');
-  $('div.z').removeClass('rotate135').addClass('rotate150');
   $('div.circle').removeClass('expand');
   $('.menu li').removeClass('animate');
-
-  setTimeout(function () {
-    $('div.x').removeClass('rotate30');
-    $('div.z').removeClass('rotate150');
-  }, 50);
-  setTimeout(function () {
-    $('div.y').show();
-    $('div.x, div.y, div.z').removeClass('collapse');
-  }, 70);
+  $('div.y').removeClass('hide');
 
 }
-      //# sourceURL=pen.js
     </script>
+
 </html>
