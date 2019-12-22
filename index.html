@@ -57,23 +57,15 @@
 			else { closeMenu(); }
 
 	});
-	
-
-	$('div.menu ul li a').on(click, function(e){
-		e.preventDefault();
-		closeMenu();
-	});		
+		
 
 
 	function openMenu(){
 		
-		$('div.circle').addClass('expand');
-					
+		$('div.circle').addClass('expand');				
 		$('div.burger').addClass('open');	
 		$('div.x, y, z').addClass('collapse');
 		$('div.menu li').addClass('animate');
-		
-		
 		
 
 	}
@@ -98,7 +90,7 @@
 
 			</div>
 			<img src="images/logo final.png" width="15%" height="auto" alt=""/>
-			<div class="anima"><a href="pageform.html"><button type="button" class="btn btn-lg btn-primary" >J'en veux un <br>pour mon chat</button></a></div>
+			<a href="pageform.html"><div class="anima" onClick="pageform.html"><button type="button" class="btn btn-lg btn-primary">J'en veux un <br>pour mon chat</button></div></a>
 		</div>
 </header>
 <section class="section">
@@ -140,7 +132,7 @@
     </div>
   </div>
 </section>
-	<div class="container-fluid"><button type="button" class="btn btn-lg btn-primary" >J'en veux un pour mon chat</button></div>
+	<a href="pageform.html"><div class="container-fluid"><button type="button" class="btn btn-lg btn-primary">J'en veux un pour mon chat</button></div></a>
 
 	
 	
