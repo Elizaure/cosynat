@@ -183,6 +183,7 @@ div.menu li.animate:nth-of-type(4){
   body,
   html {
     display: block;
+	background-color: #cfd8d7;
   }
 }
 
@@ -204,6 +205,7 @@ div.menu li.animate:nth-of-type(4){
   .section {
     display: block;
 	align-content: center;
+	  back
   }
 }
 
@@ -292,8 +294,8 @@ h1 {
   grid-auto-rows: 600px;
 }
 	.item--full {
-    grid-column: 1/-1;
-    grid-row-end: span 4;
+    grid-column: span 4;
+    grid-row-end: span 1;
   }
 	.item--medium {
   grid-row-end: span 1;
