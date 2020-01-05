@@ -205,7 +205,6 @@ div.menu li.animate:nth-of-type(4){
   .section {
     display: block;
 	align-content: center;
-	  back
   }
 }
 
@@ -282,13 +281,12 @@ h1 {
 
 @media screen and (min-width: 1400px){
 	.section {
-		padding: 6rem;
+		padding: 2rem;
 	}
 	.grid{
 	display: grid;
-		margin-left: 10%;
+		margin-left: 5%;
 		margin-right: 10%;
-  justify-content: space-between;
   grid-gap: 40px;
   grid-template-columns: 300px 300px 300px 300px;
   grid-auto-rows: 600px;
