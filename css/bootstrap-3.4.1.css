@@ -1281,8 +1281,8 @@ h6,
 }
 p {
 		color: #493B32;
-	font-size: 0.9em;
 	margin-top: 2%;
+		font-family: 'nunito-sans';
 }
 .lead {
   margin-bottom: 20px;
