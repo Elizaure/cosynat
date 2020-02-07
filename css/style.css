@@ -540,7 +540,8 @@ fieldset[disabled] .btn-primary.focus {
 
 .form-group {
 	display: block;
-	margin-left: 25%;
+	align-content: center;
+	margin-left: 15%;
 }
 
 form {
