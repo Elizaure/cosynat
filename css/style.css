@@ -17,6 +17,8 @@ html {
   font-family: "nunito-sans";
 }
 
+@font-face {font-family: 'Halant'}
+
 /* menu*/
 .list{margin-top:36px; text-align:left;}
 
@@ -427,11 +429,12 @@ h1 {
 .item__details {
   position: relative;
   padding: 20px;
-  font-family: "Lucida Calligraphy";
+  font-family: Halant;
   letter-spacing: 1px;
   color: #CFD8D7;
+	font-size: 1.4em;
   background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(99,101,100,1) 60%, rgba(255,255,255,0) 100%); 	
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(99,101,100,1) 30%, rgba(255,255,255,0) 100%); 	
 }
 
 .footer {
