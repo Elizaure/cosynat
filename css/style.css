@@ -218,7 +218,6 @@ h1 {
 
 .grid {
   display: grid;
-  grid-gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
   grid-auto-rows: 600px;
 }
@@ -289,7 +288,6 @@ h1 {
 	display: grid;
 		margin-left: 5%;
 		margin-right: 10%;
-  grid-gap: 40px;
   grid-template-columns: 300px 300px 300px 300px;
   grid-auto-rows: 600px;
 }
@@ -322,7 +320,6 @@ h1 {
   .grid {
   display: grid;
   justify-content: space-around;	  
-  grid-gap: 40px;
   grid-template-columns: 200px 200px 200px 200px;
   grid-auto-rows: 400px;
   grid-auto-flow: 300px;
@@ -393,7 +390,7 @@ h1 {
   display: grid;
   justify-content: space-around;
   grid-template-columns: 100%;
-  grid-auto-rows: 200px;;
+  grid-auto-rows: 300px;;
 }
 	.item--full {
     grid-column: span 4;
@@ -463,6 +460,7 @@ h1 {
 	padding: 5%;
 	font-family: "nunito-sans";
 	font-size:14px;
+	clear: both;
 }
 
 .text p{
