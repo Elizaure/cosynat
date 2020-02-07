@@ -124,7 +124,7 @@ p {
 	text-decoration:underline;			
 }
 
-li a {
+.menu ul li a {
 	color:#636564;
 	text-decoration:underline;			
 }
