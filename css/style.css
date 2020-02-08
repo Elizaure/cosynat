@@ -319,7 +319,7 @@ h1 {
   display: grid;
   justify-content: space-around;	  
   grid-template-columns: 200px 200px 200px 200px;
-  grid-auto-rows: 400px;
+  grid-auto-rows: 500px;
   grid-auto-flow: 300px;
 }
 	.item--full {
