@@ -33,7 +33,6 @@ html {
 p {
 		color: #636564;
 	font-family: 'nunito-sans';
-	font-size: 0.7em;
 }
 
 .y {
@@ -287,7 +286,7 @@ h1 {
 		margin-left: 10%;
 		margin-right: 10%;
   grid-template-columns: 300px 300px 300px 300px;
-  grid-auto-rows: 600px;
+  grid-auto-rows: 680px;
 }
 	.item--full {
     grid-column: span 4;
@@ -306,6 +305,9 @@ h1 {
 }
 	.item--bis {
 	}
+			.btn-primary {
+		font-size: 24px;
+		padding: 15px;}
 }
 
 /* medium screen*/
@@ -319,7 +321,7 @@ h1 {
   display: grid;
   justify-content: space-around;	  
   grid-template-columns: 200px 200px 200px 200px;
-  grid-auto-rows: 500px;
+  grid-auto-rows: 700px;
   grid-auto-flow: 300px;
 }
 	.item--full {
@@ -340,17 +342,20 @@ h1 {
 	.item {
 	}
 	
-	.p{
-		font-size: 10em;
+	p{
+		font-size: 20px;
 	}
+		.btn-primary {
+		font-size: 20px;
+			padding: 10px;}}
 	
-}
+
 @media screen and (min-width: 401px) and (max-width: 800px) {
   .grid {
   display: grid;
   justify-content: space-around;
-  grid-template-columns: 400px;
-  grid-auto-rows: 200px;;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+  grid-auto-rows: 400px;
 }
 	.item--full {
     grid-column: span 4;
@@ -382,9 +387,11 @@ h1 {
 		border-radius: 5%;
 	}
 	p {
-		font-size: 0.5em;
+		font-size: 20px;
 	}
-
+	.btn-primary {
+		font-size: 20px;
+		padding: 6px;}
 }
 
 @media screen and (max-width: 400px) {
@@ -392,7 +399,7 @@ h1 {
   display: grid;
   justify-content: space-around;
   grid-template-columns: 100%;
-  grid-auto-rows: 350px;;
+  grid-auto-rows: 400px;;
 }
 	.item--full {
     grid-column: span 4;
@@ -423,8 +430,13 @@ h1 {
 	.circle {
 		border-radius: 5%;
 	}
-
+	.btn-primary {
+		font-size: 12px;
+			padding: 4px;}
+	p { font-size: 15px;}
 }
+
+
 
 .item__details {
   position: relative;
@@ -488,11 +500,9 @@ h1 {
 
 
 .btn-primary {
-  font-size: 18px;
   height: 80px;
   color: #fff;
   background-color: #636564;
-  padding: 15px;
   box-shadow: 3px 3px 2px 2px #ccc;
   font-family: "nunito-sans";
 }
