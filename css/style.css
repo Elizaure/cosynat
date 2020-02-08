@@ -388,6 +388,7 @@ h1 {
 	}
 	p {
 		font-size: 20px;
+		padding-left: 2em;
 	}
 	.btn-primary {
 		font-size: 20px;
