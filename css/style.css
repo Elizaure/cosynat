@@ -388,7 +388,7 @@ h1 {
 	}
 	p {
 		font-size: 20px;
-		padding-left: 2em;
+		padding-left: 2%;
 	}
 	.btn-primary {
 		font-size: 20px;
@@ -434,7 +434,8 @@ h1 {
 	.btn-primary {
 		font-size: 12px;
 			padding: 4px;}
-	p { font-size: 15px;}
+	p { font-size: 15px;
+	margin-left: 2%;}
 }
 
 
